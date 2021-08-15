@@ -1,7 +1,7 @@
 import os
 import matplotlib.pyplot as plt
 path_to_style = os.path.abspath(os.path.join(os.path.dirname( __file__ ), 'lm.mplstyle'))
-print(path_to_style)
+print(f'Using style file at: {path_to_style}')
 plt.style.use(path_to_style)
 
 journal_textwidths = {'prd': 6.50127,
