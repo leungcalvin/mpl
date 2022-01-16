@@ -5,7 +5,9 @@ print(f'Using style file at: {path_to_style}')
 plt.style.use(path_to_style)
 
 journal_textwidths = {'prd': 6.50127,
-                      'none': 8.5} # Latex's \textwidth in inches
+                      'none': 8.5,
+                      'kaobook':6.5 # just a guess
+                      } # Latex's \textwidth in inches
 
 def figsize(fraction_of_textwidth = 0.45,height_per_width  = 1 / 1.61803399,journal = 'prd'):
     textwidth = journal_textwidths[journal]
