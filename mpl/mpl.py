@@ -6,8 +6,8 @@ plt.style.use(path_to_style)
 
 journal_textwidths = {'prd': 6.50127,
                       'none': 8.5,
-                      'kaobook':6.5 # just a guess
-                      'issi':6.5 # just a guess
+                      'kaobook':6.5, # just a guess
+                      'issi':6.5, # just a guess
                       'apj':6.0, # from \textwidth in aastex631.cls
                       'aj': 6.0, # from \textwidth in aastex631.cls
                       } # Latex's \textwidth in inches
