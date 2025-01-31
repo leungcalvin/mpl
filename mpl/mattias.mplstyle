@@ -1,0 +1,84 @@
+# Setting for SN 2012AU Paper
+# Author: Mattias Lazda
+# Last update: 10.09.2024
+
+# Look here how to add more style!
+# https://matplotlib.org/stable/tutorials/introductory/customizing.html
+
+
+# import matplotlib.font_manager
+# import matplotlib.pyplot as plt
+# font_path = '/Library/Fonts/AVHersheyComplexMedium.ttf'
+# font_manager.fontManager.addfont(font_path)
+
+# prop = font_manager.FontProperties(fname=font_path)
+
+# plt.rcParams['font.family'] = 'sans-serif'
+# plt.rcParams['font.sans-serif'] = prop.get_name()
+
+
+# LINES
+lines.linewidth     : 1
+
+# TEXT
+mathtext.fontset    : stix
+
+# FONT
+font.size           : 12
+font.family: sans-serif
+
+# AXES
+axes.labelsize      : 13
+axes.linewidth      : 1
+axes.titlesize      : 11
+axes.grid           : True
+
+# Colors
+axes.prop_cycle     : cycler('color', ['ff601c','ff4f4f', '5aff5a', '1d1dff', 'ff11ff', '48ffff', 'ff5e5e', 'c1c1c1', '000000'])
+
+# TICKS
+xtick.labelsize     : 13
+ytick.labelsize     : 13
+xtick.direction     : inout  # Tick direction for x-axis
+ytick.direction     : inout  # Tick direction for y-axis
+xtick.top           : True   # Draw ticks on the top side of the x-axis
+ytick.right         : True   # Draw ticks on the right side of the y-axis
+
+xtick.major.size    : 10
+xtick.minor.size    : 7
+xtick.major.width   : 1
+xtick.minor.width   : 1
+
+
+ytick.major.size    : 10
+ytick.minor.size    : 7
+ytick.major.width   : 1
+ytick.minor.width   : 1
+
+
+
+
+
+# IMAGES
+image.cmap          : gnuplot2
+image.origin        : lower
+
+# GRIDS
+grid.linestyle      : --
+grid.alpha          : 0
+grid.linewidth      : 1
+grid.color          : black
+
+# FIGURE
+figure.titlesize    : 12
+
+# LEGEND
+legend.fontsize     : 10
+legend.fancybox     : False
+legend.borderpad    : 0
+legend.framealpha   : 0
+legend.shadow       : False
+
+# SAVING FIGURES
+savefig.bbox        : tight
+savefig.pad_inches  : 0.00 #0.03
